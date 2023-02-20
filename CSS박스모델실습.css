@@ -1,0 +1,37 @@
+.title{
+    background-color: orange;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+.list{
+    border: 3px black dashed;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.list p {
+    background-color: beige;
+    padding: 5px;
+}
+
+.link-home{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.link-home:hover {background-color: orangered;}
+.link-blog{
+    text-decoration: none;
+    color: black;
+    padding: 5px
+}
+
+.link-blog:hover {
+    color: green;
+    font-weight: bold;
+    border-bottom: solid green 3px;
+}

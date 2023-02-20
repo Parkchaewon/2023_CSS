@@ -1,0 +1,59 @@
+.background-orange {
+    background-color: orange;
+}
+.inline-block {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+/* hidden은 검사 했을떄 보이지만 none은 보이지 않음 */
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}
+
+/*투명도 설정단위는 1~100%, 숫자 0~1*/
+.opacity{ 
+    opacity: 30%;
+    background-color: yellow;
+}
+
+.box{
+
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+}
+.position-r {
+    /*정적위치에서는 이동할 수 없다*/
+    position: static;
+    left: 30px;
+}
+.position-r {
+    /*상대위치를 쓰겠다 알림*/
+    position:relative;
+    left: 30px;
+    top:30px
+}
+
+.box-parent { 
+    height: 300px;
+}
+
+.position-f{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+}
+
+.position-a { 
+    position: absolute;
+    top: 250px;
+    left: 150px;
+
+}
