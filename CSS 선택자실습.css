@@ -1,0 +1,17 @@
+.book{
+    border: 4px solid red;
+}
+
+.book a{
+    text-decoration: none;
+    padding: 50px 50px;
+}
+
+.float{
+    float: right;
+    background-color: blue;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
